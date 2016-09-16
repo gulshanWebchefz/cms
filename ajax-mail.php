@@ -1,7 +1,7 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
 include("conn.php");
-
+echo "Connected";
 session_start(); // Starting Session
 		$order = $_POST["ordernumber"];
 
